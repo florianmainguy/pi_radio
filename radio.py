@@ -234,17 +234,14 @@ class App:
       # Launch BBC 6
       if self.ticks == 1:
         self.right()
-        #self.display()
-        self.down()
-        #self.display()
-        self.down()
-        #self.display()
-        self.down()
-        #self.display()
-        self.down()
-        #self.display()
-        self.right()
         self.display()
+        for i in 4:
+          self.down()
+          self.display()
+        self.right()
+        self.display
+        for i in 5:
+          self.up
 
       try:
         if (self.lcd.buttonPressed(self.lcd.LEFT)):
