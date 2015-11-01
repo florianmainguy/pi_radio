@@ -15,3 +15,5 @@ Modified to get BBC 6 Music straight on when raspberry pi turned on, and include
 <li>BBC 5 Live Sports Extra</li>
 <li>BBC 6 Music</li>
 </ul>
+
+## Instructio

@@ -234,10 +234,10 @@ class App:
       # Launch BBC 6
       if self.ticks == 1:
         self.right()
-        #self.display()
+        self.display()
         for i in range(4):
           self.down()
-          #self.display()
+          self.display()
         self.right()
         self.display
         for i in 5:
