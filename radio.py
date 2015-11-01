@@ -223,10 +223,10 @@ class App:
     last_buttons = None
 
     # Launch BBC 6
-    self.right()
-    for i in 8:
-      self.down()
-    self.right()
+    #self.right()
+    #for i in 8:
+      #self.down()
+    #self.right()
 
     while True:
       self.tick()
