@@ -234,15 +234,15 @@ class App:
       # Launch BBC 6
       if self.ticks == 1:
         self.right()
-        self.display()
+        #self.display()
         self.down()
-        self.display()
+        #self.display()
         self.down()
-        self.display()
+        #self.display()
         self.down()
-        self.display()
+        #self.display()
         self.down()
-        self.display()
+        #self.display()
         self.right()
         self.display()
 
