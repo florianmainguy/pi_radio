@@ -219,7 +219,6 @@ class App:
     self.ticks = 0
     self.display()
 
-
     last_buttons = None
 
     while True:
@@ -233,10 +232,9 @@ class App:
       last_buttons = buttons
 
       # Launch BBC 6
+      print "TICK"
+      print self.ticks
       if self.ticks == 1:
-        self.right()
-        for i in 8:
-          self.down()
         self.right()
         self.display()
 
