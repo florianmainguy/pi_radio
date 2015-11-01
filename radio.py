@@ -239,9 +239,9 @@ class App:
           self.down()
           self.display()
         self.right()
-        self.display
-        for i in 5:
-          self.up
+        self.display()
+        for i in range(5):
+          self.up()
 
       try:
         if (self.lcd.buttonPressed(self.lcd.LEFT)):
