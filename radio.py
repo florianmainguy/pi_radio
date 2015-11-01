@@ -232,9 +232,17 @@ class App:
       last_buttons = buttons
 
       # Launch BBC 6
-      print "TICK"
-      print self.ticks
       if self.ticks == 1:
+        self.right()
+        self.display()
+        self.down()
+        self.display()
+        self.down()
+        self.display()
+        self.down()
+        self.display()
+        self.down()
+        self.display()
         self.right()
         self.display()
 
