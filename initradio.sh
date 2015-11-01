@@ -12,7 +12,7 @@
 #! /bin/sh
 # /etc/init.d/radio
 
-DAEMON='/home/pi/radio/radio.py 2>&1'
+DAEMON='/home/pi/pi_radio/radio.py 2>&1'
 PIDFILE=/var/run/radio.pid
 
 export HOME
