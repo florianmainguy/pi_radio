@@ -240,7 +240,7 @@ class App:
           self.display()
         self.right()
         self.display()
-        for i in range(5):
+        for i in range(10):
           self.up()
           self.display()
 
