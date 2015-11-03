@@ -277,7 +277,7 @@ class Radio(App):
 
     App.__init__(self,
       Adafruit_CharLCDPlate(),
-      Folder('Pauls iRadio', (
+      Folder('Flo Pi Radio', (
         Playlists(self),
         Folder('Settings', (
           Node(self.command('hostname -I')[0]),
