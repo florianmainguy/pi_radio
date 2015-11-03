@@ -224,14 +224,10 @@ class App:
     # Launch BBC 6
     self.right()
     sleep(0.1)
-    for i in range(4):
+    for i in range(3):
       self.down()
       sleep(0.1)
     self.right()
-    sleep(0.1)
-    for i in range(10):
-      self.up()
-      sleep(0.1)
 
     while True:
       self.tick()
@@ -334,7 +330,7 @@ class Playlist(Applet):
       return
 
     if self.lines[0] == '':
-      self.command('mpc volume 70')
+      self.command('mpc volume 100')
       self.display()
       return
 
