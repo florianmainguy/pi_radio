@@ -221,6 +221,18 @@ class App:
 
     last_buttons = None
 
+    # Launch BBC 6
+    self.right()
+    sleep(0.1)
+    for i in range(4):
+      self.down()
+      sleep(0.1)
+    self.right()
+    sleep(0.1)
+    for i in range(10):
+      self.up()
+      sleep(0.1)
+
     while True:
       self.tick()
       self.ticks += 1
@@ -230,19 +242,6 @@ class App:
       if last_buttons == buttons:
         continue
       last_buttons = buttons
-
-      # Launch BBC 6
-      if self.ticks == 1:
-        self.right()
-        self.display()
-        for i in range(4):
-          self.down()
-          self.display()
-        self.right()
-        self.display()
-        for i in range(10):
-          self.up()
-          self.display()
 
       try:
         if (self.lcd.buttonPressed(self.lcd.LEFT)):
