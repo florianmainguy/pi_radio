@@ -24,12 +24,12 @@ sudo apt-get install mpd mpc git<br>
 sudo service mpd start<br>
 </code>
 
-Download the script and install it:
+Download the script and install it:<br>
 <code>
 git clone https://github.com/florianmainguy/pi_radio.git<br>
 </code>
 
-Install some other things:
+Install some other things:<br>
 <code>
 sudo apt-get install python-smbus<br>
 sudo apt-get install python-serial python-imaging python-unidecode<br>
@@ -37,7 +37,7 @@ sudo cp initradio.sh /etc/init.d/radio<br>
 sudo update-rc.d radio defaults service<br>
 </code>
 
-We need to update the playlist address to do this:
+We need to update the playlist address to do this:<br>
 <code>
 sudo nano //etc/mpd.conf<br>
 </code>
