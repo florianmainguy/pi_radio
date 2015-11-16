@@ -1,7 +1,7 @@
 # Pi Radio
 
 Internet Radio for Raspberry PI, with MPD / Adafruit LCD Plate / Python.<br>
-Based on [this project](http://www.instructables.com/id/Raspberry-Pi-Internet-Radio/)<br>
+Based on [this project from fizzPOP - Birmingham Hackspace](http://www.instructables.com/id/Raspberry-Pi-Internet-Radio/)<br>
 <br>
 Modified to get BBC 6 Music straight on when raspberry pi turned on, and includes following radio station:
 <ul>
