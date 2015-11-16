@@ -30,12 +30,10 @@ git clone https://github.com/florianmainguy/pi_radio.git<br>
 </code>
 
 Install some other things:<br>
-<code>
-sudo apt-get install python-smbus<br>
-sudo apt-get install python-serial python-imaging python-unidecode<br>
-sudo cp initradio.sh /etc/init.d/radio<br>
-sudo update-rc.d radio defaults service<br>
-</code>
+<code>sudo apt-get install python-smbus</code>
+<code>sudo apt-get install python-serial python-imaging python-unidecode</code>
+<code>sudo cp initradio.sh /etc/init.d/radio</code>
+<code>sudo update-rc.d radio defaults service</code>
 
 We need to update the playlist address to do this:<br>
 <code>
