@@ -20,30 +20,30 @@ Modified to get BBC 6 Music straight on when raspberry pi turned on, and include
 
 To start with setup Media Player (Mpd) with the following commands:<br>
 <code>
-sudo apt-get install mpd mpc git 
-sudo service mpd start
+sudo apt-get install mpd mpc git<br>
+sudo service mpd start<br>
 </code>
 
 Download the script and install it:
 <code>
-git clone https://github.com/florianmainguy/pi_radio.git
+git clone https://github.com/florianmainguy/pi_radio.git<br>
 </code>
 
 Install some other things:
 <code>
-sudo apt-get install python-smbus
-sudo apt-get install python-serial python-imaging python-unidecode
-sudo cp initradio.sh /etc/init.d/radio 
-sudo update-rc.d radio defaults service 
+sudo apt-get install python-smbus<br>
+sudo apt-get install python-serial python-imaging python-unidecode<br>
+sudo cp initradio.sh /etc/init.d/radio<br>
+sudo update-rc.d radio defaults service<br>
 </code>
 
 We need to update the playlist address to do this:
 <code>
-sudo nano //etc/mpd.conf
+sudo nano //etc/mpd.conf<br>
 </code>
 
-playlist_directory "/var/lib/mpd/playlists"
-To:
+playlist_directory "/var/lib/mpd/playlists”<br>
+To:<br>
 playlist_directory "/home/pi/radio/playlists”<br>
 
 Press Control O to save followed by Control X to exit.<br>
